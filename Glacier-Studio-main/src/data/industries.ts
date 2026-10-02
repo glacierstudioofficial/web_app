@@ -1,0 +1,68 @@
+import { IndustryItem } from "@/types";
+
+export const industriesData: IndustryItem[] = [
+  {
+    id: "local-businesses",
+    title: "Local Businesses",
+    description: "High-converting web presences, local SEO mastery, and automated booking/lead triage.",
+    iconName: "MapPin",
+    useCase: "Drive local foot traffic, phone inquiries, and service appointment bookings.",
+    image: "/images/industries/local-businesses.png",
+  },
+  {
+    id: "startups",
+    title: "Technology Startups",
+    description: "Rapid MVP development, scalable web app architectures, and growth marketing systems.",
+    iconName: "Rocket",
+    useCase: "Validate product-market fit quickly with enterprise-ready Next.js codebases.",
+    image: "/images/industries/startups.png",
+  },
+  {
+    id: "ecommerce",
+    title: "E-Commerce Brands",
+    description: "High-speed storefront optimization, Google Shopping ads, and automated cart recovery.",
+    iconName: "ShoppingBag",
+    useCase: "Maximize average order value, conversion rates, and repeat customer lifetime value.",
+    image: "/images/industries/ecommerce.png",
+  },
+  {
+    id: "real-estate",
+    title: "Real Estate & Housing",
+    description: "Property listing platforms, virtual tour integrations, and automated lead capture.",
+    iconName: "Building2",
+    useCase: "Capture qualified buyer inquiries and streamline agent CRM workflows.",
+    image: "/images/industries/real-estate.png",
+  },
+  {
+    id: "healthcare",
+    title: "Healthcare & Clinics",
+    description: "Secure, compliant web applications, patient portal interfaces, and local search visibility.",
+    iconName: "Activity",
+    useCase: "Build patient trust and streamline appointment scheduling across locations.",
+    image: "/images/industries/healthcare.png",
+  },
+  {
+    id: "education",
+    title: "Education & EdTech",
+    description: "Custom LMS platforms, student enrollment funnels, and course delivery web apps.",
+    iconName: "GraduationCap",
+    useCase: "Expand online student reach and streamline course management.",
+    image: "/images/industries/education.png",
+  },
+  {
+    id: "professional-services",
+    title: "Professional Services",
+    description: "Legal, accounting, and consulting websites built to project prestige and win high-ticket clients.",
+    iconName: "Briefcase",
+    useCase: "Position firm expertise, showcase case studies, and generate inbound retainer leads.",
+    image: "/images/industries/professional-services.png",
+  },
+  {
+    id: "growing-enterprises",
+    title: "Growing Enterprises",
+    description: "Custom internal tools, workflow automation, complex API integrations, and legacy migrations.",
+    iconName: "Layers",
+    useCase: "Eliminate operational bottlenecks and scale IT infrastructure effortlessly.",
+    image: "/images/industries/growing-enterprises.png",
+  },
+];
